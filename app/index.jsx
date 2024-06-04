@@ -4,21 +4,12 @@ import { Link } from 'expo-router'
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Food App</Text>
-      <StatusBar style="auto" />
-      <Link href="/profile" style={{color:'red'}}>Go to profile</Link>
+    <View className="flex-1 justify-center items-center bg-white">
+      <Text className="text-3xl">Food App</Text>
+      <StatusBar />
+      <Link href="/home" >Go to home</Link>
     </View>
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({
-  container:{
-    display: 'flex',
-    flex:1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  }
-})
