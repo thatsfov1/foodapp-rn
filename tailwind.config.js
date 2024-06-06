@@ -12,6 +12,10 @@ module.exports = {
         black:{
           DEFAULT:"#484848",
           100:"#424242",
+        },
+        gray:{
+          DEFAULT:"#E8E8E8",
+          200:"#868686"
         }
       },
       fontFamily: {
